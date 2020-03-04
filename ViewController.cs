@@ -45,6 +45,8 @@ namespace Loader
                 var barButtonItem = new UIBarButtonItem(ProgressImageView);
                 NavigationItem.RightBarButtonItem = barButtonItem;
 
+
+                // Add Images Here to Animate
                 ProgressImageView.AnimationImages = new UIImage[] {
                 UIImage.FromBundle ("11"),
                 UIImage.FromBundle ("22"),
